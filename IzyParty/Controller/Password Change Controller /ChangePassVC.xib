@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChangePassVC" customModule="IzyParty" customModuleProvider="target">
+            <connections>
+                <outlet property="Scroll" destination="xfH-oY-xN4" id="3P0-iN-794"/>
+                <outlet property="ViewHeader" destination="Ovk-5r-riF" id="iFL-0C-GNb"/>
+                <outlet property="cancelBtn" destination="ftD-2t-Hpb" id="iGk-PH-uKU"/>
+                <outlet property="lblBack" destination="aCe-O8-Ufp" id="oqQ-qZ-iiy"/>
+                <outlet property="lblTitle" destination="RNH-6e-rWd" id="OHl-cw-NZw"/>
+                <outlet property="txtCnfmPass" destination="YXK-jq-Yge" id="cm9-1l-k6J"/>
+                <outlet property="txtExistingPass" destination="xhJ-7b-XTT" id="Vba-3a-3aj"/>
+                <outlet property="txtnewPass" destination="gJN-lf-acd" id="OPX-Vy-aFA"/>
+                <outlet property="updateBtn" destination="ck7-NJ-CSA" id="ydV-gk-CYm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xfH-oY-xN4" customClass="TPKeyboardAvoidingScrollView">
+                    <rect key="frame" x="0.0" y="90" width="375" height="577"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AxG-pf-03l">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="577"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YXK-jq-Yge">
+                                    <rect key="frame" x="40" y="205" width="295" height="50"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="tintColor" red="0.89474719759999999" green="0.40870949629999997" blue="0.41456454990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                            <color key="value" red="0.65875762699999996" green="0.65885704759999997" blue="0.65874403719999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </textField>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ck7-NJ-CSA">
+                                    <rect key="frame" x="67" y="320" width="107" height="45"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="0.28038132189999998" green="0.30783036349999998" blue="0.76357120280000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <state key="normal" title="Update">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="UpdateBtnTappedWithSender:" destination="-1" eventType="touchUpInside" id="uaD-bd-Y0o"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ftD-2t-Hpb">
+                                    <rect key="frame" x="201" y="320" width="107" height="45"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="0.2231865227" green="0.60390841959999997" blue="0.8811679482" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <state key="normal" title="Cancel">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="CancelClickWithSender:" destination="-1" eventType="touchUpInside" id="rMi-Sr-Qyf"/>
+                                    </connections>
+                                </button>
+                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter existing password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xhJ-7b-XTT">
+                                    <rect key="frame" x="40" y="75" width="295" height="50"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="tintColor" red="0.89474719759999999" green="0.40870949629999997" blue="0.41456454990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                            <color key="value" red="0.65875762699999996" green="0.65885704759999997" blue="0.65874403719999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </textField>
+                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter new password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gJN-lf-acd">
+                                    <rect key="frame" x="40" y="140" width="295" height="50"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="tintColor" red="0.89474719759999999" green="0.40870949629999997" blue="0.41456454990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                    <textInputTraits key="textInputTraits" keyboardType="emailAddress" secureTextEntry="YES"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                            <color key="value" red="0.65875762699999996" green="0.65885704759999997" blue="0.65874403719999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="577" id="m3E-ZI-Pwj"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="AxG-pf-03l" secondAttribute="trailing" id="EeZ-4t-n07"/>
+                        <constraint firstItem="AxG-pf-03l" firstAttribute="top" secondItem="xfH-oY-xN4" secondAttribute="top" id="Mng-z1-jpm"/>
+                        <constraint firstItem="AxG-pf-03l" firstAttribute="centerX" secondItem="xfH-oY-xN4" secondAttribute="centerX" id="SLP-C1-3Kc"/>
+                        <constraint firstItem="AxG-pf-03l" firstAttribute="leading" secondItem="xfH-oY-xN4" secondAttribute="leading" id="czh-C5-Ite"/>
+                        <constraint firstAttribute="bottom" secondItem="AxG-pf-03l" secondAttribute="bottom" id="nar-fU-dia"/>
+                    </constraints>
+                </scrollView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ovk-5r-riF">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ezE-zj-cP1">
+                            <rect key="frame" x="10" y="28" width="78" height="47"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow-left.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q9F-A6-8ox">
+                                    <rect key="frame" x="18" y="6" width="23" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Back" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aCe-O8-Ufp">
+                                    <rect key="frame" x="13" y="30" width="49" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1LE-RD-MSE">
+                            <rect key="frame" x="9" y="28" width="78" height="62"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="CancelClickWithSender:" destination="-1" eventType="touchUpInside" id="yPH-JJ-mis"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Change Password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="RNH-6e-rWd">
+                            <rect key="frame" x="88" y="44" width="230" height="32"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OFo-dm-VYe">
+                            <rect key="frame" x="326" y="45" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="dots-vertical.png"/>
+                            <connections>
+                                <action selector="moreButtonTapWithSender:" destination="-1" eventType="touchUpInside" id="soV-3J-g8I"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="90" id="nLi-mY-Omz"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.93333333333333335" green="0.39215686274509803" blue="0.38431372549019605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="xfH-oY-xN4" firstAttribute="trailing" secondItem="vM0-Tq-YTC" secondAttribute="trailing" id="0tW-7h-Ixl"/>
+                <constraint firstItem="Ovk-5r-riF" firstAttribute="trailing" secondItem="vM0-Tq-YTC" secondAttribute="trailing" id="5wj-I8-nef"/>
+                <constraint firstItem="Ovk-5r-riF" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Ku0-1r-rA5"/>
+                <constraint firstItem="xfH-oY-xN4" firstAttribute="top" secondItem="Ovk-5r-riF" secondAttribute="bottom" id="Luh-fk-mxj"/>
+                <constraint firstItem="xfH-oY-xN4" firstAttribute="leading" secondItem="vM0-Tq-YTC" secondAttribute="leading" id="bNV-Bv-3Dr"/>
+                <constraint firstItem="Ovk-5r-riF" firstAttribute="leading" secondItem="vM0-Tq-YTC" secondAttribute="leading" id="jxu-Mg-ylt"/>
+                <constraint firstItem="xfH-oY-xN4" firstAttribute="bottom" secondItem="vM0-Tq-YTC" secondAttribute="bottom" id="seS-mo-Fw0"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vM0-Tq-YTC"/>
+            <point key="canvasLocation" x="44" y="37"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow-left.png" width="25" height="25"/>
+        <image name="dots-vertical.png" width="30" height="30"/>
+    </resources>
+</document>

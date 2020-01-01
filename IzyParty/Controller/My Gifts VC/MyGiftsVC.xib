@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyGiftsVC" customModule="IzyParty" customModuleProvider="target">
+            <connections>
+                <outlet property="ViewHeader" destination="fU0-il-IcP" id="ARQ-U8-BfW"/>
+                <outlet property="acceptBtn" destination="n5s-SV-D7I" id="WuM-LV-ym4"/>
+                <outlet property="acceptBtnImg" destination="Ohr-Qs-124" id="qiT-ly-IMZ"/>
+                <outlet property="lblBack" destination="ToV-IB-RAj" id="gsp-m7-KWX"/>
+                <outlet property="lblTitle" destination="fHU-Dw-vIc" id="6qO-qa-d2u"/>
+                <outlet property="rejectBtn" destination="ZNx-aU-0Da" id="GyY-rb-xtZ"/>
+                <outlet property="rejectBtnImg" destination="CL4-Mc-LIn" id="Iaj-vN-P3P"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m5Z-Y9-R7T">
+                    <rect key="frame" x="0.0" y="90" width="375" height="577"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gift.png" translatesAutoresizingMaskIntoConstraints="NO" id="NPm-ny-f05">
+                            <rect key="frame" x="60" y="25" width="255" height="230"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="230" id="9Pu-jl-tPM"/>
+                                <constraint firstAttribute="width" constant="255" id="tVf-OF-eqp"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have not selected any gift for this party " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fc0-yT-FZD">
+                            <rect key="frame" x="22" y="315" width="330" height="33"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="33" id="huM-NR-4oA"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CL4-Mc-LIn">
+                            <rect key="frame" x="205" y="495" width="160" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZNx-aU-0Da">
+                            <rect key="frame" x="205" y="495" width="160" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.1984429657" green="0.11342511330000001" blue="0.70981734990000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <state key="normal" title="Don't change">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="DontChangeBtnTappedWith_sender:" destination="-1" eventType="touchUpInside" id="puI-3x-neF"/>
+                            </connections>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ohr-Qs-124">
+                            <rect key="frame" x="10" y="495" width="160" height="30"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n5s-SV-D7I">
+                            <rect key="frame" x="10" y="495" width="160" height="30"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.1984429657" green="0.11342511330000001" blue="0.70981734990000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <state key="normal" title="Change gift">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="ChangeGiftTappedWith_sender:" destination="-1" eventType="touchUpInside" id="hNU-QB-UqT"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Fc0-yT-FZD" secondAttribute="trailing" constant="23" id="4Nj-qs-OpP"/>
+                        <constraint firstItem="Fc0-yT-FZD" firstAttribute="leading" secondItem="m5Z-Y9-R7T" secondAttribute="leading" constant="22" id="Gd9-oK-arg"/>
+                        <constraint firstItem="NPm-ny-f05" firstAttribute="top" secondItem="m5Z-Y9-R7T" secondAttribute="top" constant="25" id="TTd-QV-91f"/>
+                        <constraint firstItem="NPm-ny-f05" firstAttribute="centerX" secondItem="m5Z-Y9-R7T" secondAttribute="centerX" id="hlP-Ro-tvC"/>
+                        <constraint firstItem="Fc0-yT-FZD" firstAttribute="top" secondItem="NPm-ny-f05" secondAttribute="bottom" constant="60" id="tFA-Nh-pSj"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fU0-il-IcP">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eRC-2k-GUg">
+                            <rect key="frame" x="3" y="23" width="70" height="59"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow-left.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xfh-fv-gfM">
+                                    <rect key="frame" x="18" y="17" width="23" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Back" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ToV-IB-RAj">
+                                    <rect key="frame" x="15" y="39" width="49" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSB-z9-7vp">
+                            <rect key="frame" x="4" y="23" width="68" height="62"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="DontChangeBtnTappedWith_sender:" destination="-1" eventType="touchUpInside" id="zAC-oP-1zR"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Gifts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHU-Dw-vIc">
+                            <rect key="frame" x="82" y="44" width="211" height="32"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIQ-WB-Gin">
+                            <rect key="frame" x="333" y="45" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="dots-vertical.png"/>
+                            <connections>
+                                <action selector="moreButtonTapWithSender:" destination="-1" eventType="touchUpInside" id="a3B-TG-FN2"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.27450980390000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="90" id="yf0-Ue-sKx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.93333333333333335" green="0.39215686274509803" blue="0.38431372549019605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="m5Z-Y9-R7T" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="AEQ-zw-39P"/>
+                <constraint firstItem="m5Z-Y9-R7T" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Ihd-TF-lbm"/>
+                <constraint firstItem="m5Z-Y9-R7T" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="J6u-MH-y2N"/>
+                <constraint firstItem="fU0-il-IcP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Lq6-gr-GHJ"/>
+                <constraint firstItem="m5Z-Y9-R7T" firstAttribute="top" secondItem="fU0-il-IcP" secondAttribute="bottom" id="Zqu-RZ-2Hw"/>
+                <constraint firstItem="fU0-il-IcP" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="t6H-og-tXJ"/>
+                <constraint firstItem="fU0-il-IcP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="zFa-Wl-jQl"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="131.8840579710145" y="120.65217391304348"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow-left.png" width="25" height="25"/>
+        <image name="dots-vertical.png" width="30" height="30"/>
+        <image name="gift.png" width="640" height="601"/>
+    </resources>
+</document>

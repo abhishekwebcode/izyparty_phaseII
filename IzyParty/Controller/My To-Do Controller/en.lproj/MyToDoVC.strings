@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "2pK-4y-Ajn"; */
+"2pK-4y-Ajn.normalTitle" = "CANCEL";
+
+/* Class = "UILabel"; text = "Add To-do to this event"; ObjectID = "5ne-pG-Xbu"; */
+"5ne-pG-Xbu.text" = "Add To-do to this event";
+
+/* Class = "UIButton"; normalTitle = "ADD"; ObjectID = "BTa-3H-yPw"; */
+"BTa-3H-yPw.normalTitle" = "ADD";
+
+/* Class = "UILabel"; text = "My To-Do"; ObjectID = "NKz-ot-xlQ"; */
+"NKz-ot-xlQ.text" = "My To-Do";
+
+/* Class = "UILabel"; text = "Back"; ObjectID = "NM1-Wx-ehd"; */
+"NM1-Wx-ehd.text" = "Back";

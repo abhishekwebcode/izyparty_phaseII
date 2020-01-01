@@ -1,0 +1,348 @@
+/* 
+  English.strings
+  IzyParty
+
+  Created by Apple on 07/10/19.
+  Copyright © 2019 neha. All rights reserved.
+*/
+
+
+
+
+"loading1" = "Loading ...";
+ "error1" = "Error Accepting Invite";
+"error" = "Error";
+"updating_party" = "Error updating your party";
+"event_created" = "Your Event was created";
+"couldnt_party_create" = "Couldn\'t create your party";
+"no_attendees_selected" = "No attendees selected, please add some in next screen";
+"cancelled_contact_select" = "Cancelled contact selection";
+"fill_all_fields" = "Please fill all the fields correctly";
+"add_attendees" = "Add attendees";
+"contact_permission_text" = "Contact Permission is required to select attendees";
+"select_attendees_title" = "Select Attendees";
+"successfully_added_gift" = "Successfully added your gift!";
+"successfully_added_todo" = "Successfully added your todo!";
+"is_delighted_toInvite" = "is delighted to invite you to his birthday party";
+"response_sent" = "Response Sent!";
+"error_accpeting_invite" = "Error accepting Invite";
+"change_response_qustion" = "Tap here to change your decision.";
+"yes" = "Yes";
+"no" = "No";
+"error_fetching_invite" = "Error fetching invite";
+"event_deleted_succesfully" = "Event Deleted Successfully";
+"error_deleteing_event" = "Error Deleting Event";
+"event_updated" = "Your event was updated";
+"coudlnt_update_event" = "Couldn\'t update your event";
+"fill_all_fields_banner" = "Please fill all the fields correctly";
+"update_contacts" = "Update Contacts";
+"error_loading_contacts" = "Error loading your contacts";
+"event_updated_to_attendees" = "Your event was updated to your attendees";
+"sms_start_text" = "Hey! I am inviting you to my birthday using Izyparty, click here to respond";
+"add_phone_email" = "Add phone number to this event";
+"add" = "Add";
+"please_custom_detail" = "Please enter custom contact detail";
+"celular_or_email" = "Please enter a cellular number";
+"Error_loading_events" = "Error loading your events";
+"login_error_text" = "Error Logging In...";
+"signup_html"= "<![CDATA[By signing up , you agree to our <b><u>Terms and Conditions</u></b>]]>";
+"logging_in_text" = "Logging In...";
+"error_logging_in" = "Error Logging In...";
+"successfully_updated" = "Successfully updated!";
+"couldnt_update_it" = "Couldnt Update It";
+"couldnt_update_choce_gift" = "Couldn\'t update your gift choice";
+"new_invite_notification" = "New Invite for";
+"rsvp_noti" = "You have been sent RSVP to a party by";
+"new_response_noti" = "new response for party of ";
+"someones_noti_respond" = " has responded to your invitation";
+"add_gift" = "Add a Gift to this event";
+"error_loading_events" = "Error Loading your events";
+"add_todo_titel" = "Add To-do to this event";
+"Signup_cancelled" = "Signup Cancelled";
+"successful_signup" = "Sign Up successful,please login";
+"fill_alert_fields_signup" = "Please fill all the fields correctly";
+"fill_passwords_coorecy" = "Please fill passwords correctly";
+"error_rejecting_event" = "Error rejecting event";
+"error_loading_rsvp" = "Error loading your RSVPs";
+"has_invited_you" = "has invited you, please respond";
+"coudlnt_load_invite" = "Couldn\'t load your invite";
+"signing_up" = "Signing Up...";
+"inernte_unaviable" = "Internet Unavailable";
+"splhash_retry" = "Your internet connection seems unavailable, do you want to retry?";
+"error_updating_event" = "Error Updating Event";
+"add_new_birthday_party" = "Add new birthday party";
+"join_me_to_my_birthday_party" = "Join me to my birthday party!";
+"pleae_enter_name" = "Please enter name of the guest";
+"here_users_can_write_the_name_of_his_child_and_after_the_name_of_the_guest" = "here users can write the name of his child and after the name of the guest.";
+
+ 
+"allow_the_guest_to_see_the_responses" = "Allow the guest to see the responses";
+"yes_no" = "NO/YES";
+"name_of_the_guest" = "Name of the Guest ...";
+"add_custom_contacts" = "Add Custom Contacts";
+"create_event" = "Create Event";
+"events" = "Events";
+"invitations" = "Invitations";
+"change_event_details" = "Change Event Details";
+"view_responses" = "See the guests";
+"change_attendees" = "Add Attendees";
+"delete_event" = "Delete Event";
+"gifts" = "Gifts";
+"easyparty" = "IzyParty";
+"manage_invites" = "Manage invites";
+"respond_to_hosts" = "Respond to hosts";
+"manage_time" = "Manage time";
+"to_do_list" = "To-Do List";
+"never_forget_you_kids_wish" = "Never forget you kids wish";
+"party_theme" = "Party Theme";
+"please_indicate_if_there_is_a_special_theme_for_the_party" = "Indicate if there is a theme";
+"enter_theme_here" = "Enter theme here...";
+"date" = "Detail of the Party";
+"time_start" = "Time Start";
+"time_end" = "Time End";
+"venue" = "Venue";
+
+"indicate_all_the_informations_regarding_the_bithday_party_of_your_child_and_send_the_invitation_n_it_doesn_t_prevent_you_to_give_a_funny_invitation_card_to_the_kids" =
+"INDICATE ALL THE INFORMATION REGARDING THE BIRTHDAY PARTY OF YOUR CHILD AND SEND THE INVITATION (IT DOESN’T PREVENT YOU TO GIVE A FUNNY INVITATION CARD TO THE KIDS)";
+
+"street_addresse" = "Street Addresse";
+"zip_code_and_city" = "Zip code and City";
+"city_name" = "City Name";
+"district"  = "District";
+"zip_code" = "Zip Code";
+"add_here_all_the_infomation_n_required_such_as_ndrop_pin_code" = "Add here all the information required such as Drop Pin Code";
+
+
+"is_delighted" = "is delighted to invite you to his birthday party!";
+"country" = "Country";
+"update" = "Update";
+"pool_party" = "Pool Party";
+"invites" = "Invites";
+"plan_share_invite" = "Plan, Share, Invite";
+"email_address" = "Email address";
+"password" = "Password";
+"login" = "LOGIN";
+"or" = "OR";
+"create_new_account" = "CREATE NEW ACCOUNT";
+"by_using_the_app_you_agree_with_our_terms_and_conditions" = "By using the app you agree with our terms and conditions";
+
+"sign_up" = "Sign up";
+"name" = "Name";
+"confirm_password" = "Confirm Password";
+"cancel" = "Cancel";
+"rsvp_card" = "Invitation";
+"has_invited_you_please_respond" = "... has invited you, please respond";
+"accept_and_rsvp" = "Accept and RSVP";
+"reject" = "Reject";
+"easy_birthday" = "Easy Birthday";
+"does_your_child_have_allergies_why_we_ask_this"= "Does your child have allergies ?\n Why we ask this?";
+
+"what_kid_does_not_love_a_birthday_party_though_tones_of_fun_birthday_parties_can_be_the_least_controllable_experience_for_the_food_allergic_family_there_will_be_people_who_do_not_know_and_who_do_not_know_your_child_lots_of_food_food_from_different_sources_and_a_home_event_center_or_park_that_is_unfamiliar" =
+"What kid does not love a birthday party ?!\n Though tones of fun, birthday parties can be the least controllable experience for the food-allergic family. There will be people who do not know and who do not know your child; lots of food; food from different sources; and a home, event center, or park that is unfamiliar.";
+
+ 
+"send" = "Send";
+"create" = "Create";
+"please_enter_name" = "Please enter Name ...";
+"allergies_indicated" = "Allergies Indicated";
+"allergies" = "Allergies";
+"select" = "Select";
+"profile" = "Profile";
+"contacts" = "Contacts";
+"select_text_lang" = "Please select your language";
+
+"descrpition_home"  = "Now organise your birthday parties like never before";
+"termsandc"  = "By using the app you agree with the term and conditions";
+"welcome" = "Welcome to IzyParty";
+"share_using"  = "Share the event using...";
+"add_todo_using_calendar"  = "Add this to your calendar?";
+"no_calendar_app" = "No calendar app was found";
+
+
+"leku_title_activity_location_picker" = "Location Picker";
+"leku_load_location_error" = "Something went wrong. Please try again.";
+"leku_no_search_results" = "There are no results for your search";
+"leku_unknown_location"  = "unknown location";
+"leku_voice_search_promp" = "Search by voice…";
+"leku_voice_search_extra_language" = "en-EN";
+"leku_toolbar_action_voice_title" = "Voice";
+"leku_search_hint" = "Search";
+
+
+"error_map_pick" = "Couldn\'t pick your selected location";
+
+"success_map" = "Map selection done";
+
+/*
+<string-array name="foods">
+<item>No Food Allergy</item>
+<item>Gluten</item>
+<item>Egg white</item>
+<item>Peanut</item>
+<item>Cow milk</item>
+<item>Fabaceae (lentils, beans ...)</item>
+<item>Walnut</item>
+<item>Others</item>
+</string-array>
+*/
+/*
+ <string-array name="pets">
+<item>No Pet Allergy</item>
+<item>Dog</item>
+<item>Cat</item>
+<item>Rabbit</item>
+<item>Mouse</item>
+<item>Others</item>
+</string-array>
+ */
+
+
+ 
+"gift_selected" = "Gift Selected";
+"descrpition_todo" = "Add TO-DOs to make your birthday planning easier";
+"descrpition_gift" = "Add gifts to your events and let your guests choose from your selection!";
+"welcome1" = "Make your invitation complete!";
+"welcome2" = "Manage all your organisation";
+"please_enter_your_allergy_precisely" = "Please put other allergies here...";
+"title_activity_maps_select_prebuilt" = "Map";
+"no_allergies" = "No Allergies";
+"logout" = "Logout";
+
+"my_profile" = "My Profile";
+"my_name" = "My Name";
+"my_email" = "My Email";
+"error_loading_profile" = "Error loading profile";
+"change_password" = "Change Password";
+"update" = "Update";
+"enter_existing_password" = "Enter existing password";
+"Enter_new_password" = "Enter new password";
+"error_updating_password" = "Error updating password";
+"updated_password" = "Password Updated";
+"password_fields_empty" = "Please fill out all the fields";
+"password_wrong" = "Your entered password is wrong";
+"password_dont_match" = "Your new and confirm passwords are not same";
+"logged_out_title" = "Session Expired";
+"logged_out_message" = "Your session has expired, please login again to continue";
+"ok" = "Ok";
+"forgot_password" = "Forgot Password";
+"no_browser_app" = "No web browser was found, please install one for this action";
+"going" = "Your response has already been defined as Accepted, click here to change it.";
+"notgoing" = "Your response has already been defined as Declined, click here to change it";
+"click_on_map_to_select_your_venue" = "Tap on map to select your venue";
+"no_point_seletced" = "Please tap anywhere on map to select venue";
+"click_on_the_map_preview_to_see_more" = "Tap on the map to open location on map";
+
+
+"registeredUsers" = "Registered IzyParty Attendees";
+"nonAppPhoneNumbers" = "Un-Registered IzyParty Attendees";
+"error_loading_attendees" = "Error loading attendees to your party";
+"view_attendees" = "View Attendees";
+"party" = "party";
+"update_event_notification_text" = "Some changes were done for";
+"change_was_made_by" = "Tap here to view changes made by";
+"tap_here_to_select_gift_added" = "Tap here to select this gift choice before it is gone.The gift choice was added by";
+
+
+
+"new_gift_title" = "New gift choice";
+"new_gift_added_for" = "New gift choice added for";
+"new1" = "New!";
+"Error_loading_gifts" = "Error loading your gifts";
+"todo_add_error" = "Please enter todo correctly";
+"gift_add_error" = "Please enter the gift name correctly";
+"select_gift" = "Select gift";
+"new_gift_selected_for" = "New gift selected for ";
+"click_here_to_get_gift_selected_by" = "Tap here to view gift selected by ";
+"selected" ="Selected";
+"add_contacts" = "Add Contacts";
+"phonebook" = "Add From Phonebook";
+"custom_numbers" = "Enter Attendee Manually";
+"add_attendee" = "Add attendees";
+"your_phone" = "Your phone number";
+"successful_reset_password" = "Your password has been reset";
+"reset_cancelled" = "You cancelled reset of password";
+"resetting" = "Resetting your password...";
+"update_passoword" = "Update password";
+"continue2" = "Continue";
+"error_retrieiving_gufts" = "Error retrieving your gifts";
+"no_gift_selected" = "You have not selected any gift for this party";
+"change_question_gift" = "Would you like to change your choice?";
+"gift_selected_title" = "You have selected your gift as -";
+"change_gift_choice" = "Change gift";
+"dont_change" = "Dont change";
+"NO_GIFT_TITLE" = "No gift to this party";
+"already_selected" = "This gift has been selected by someone else";
+"your_gift" = "Your selected gift";
+"was_deleted" = "was deleted by";
+"click_del"= "Tap here to select a new gift for party of";
+"interntaional_warning" = "Please enter your complete phone number in international format including + sign";
+
+
+"enter_theme" = "Enter theme here...";
+"please_select_detail" = "Please select a detail";
+"please_select_time_slot" = "Please select a time slot";
+"time_warning" = "Please enter ending time after starting time";
+"mes_v_nements" = "My Events";
+"invitation_screen_title" = "My Recieved Invitations";
+"View_Participants_title" = "Participants";
+"finish_text" = "Finish";
+"back" = "Back";
+"participants" = "Participants";
+"no_events" = "No Event, to create one click on the Plus";
+"please_enter_the_name_of_your_child" = "Name of the child for whom organize the event";
+"validate_the_event" = "Validate the event";
+"add_participants" = "Add Participants";
+"add_participants_later" = "Add Participants Later";
+"gifts_title" = "My Gifts";
+"add_event_title" = "Add New Party";
+"choose_allergies" = "Choose Allergies";
+"todo_title" = "My To-Do";
+"party_overview" = "Party Overview";
+"no_location" = "No map location was selected for this party";
+"action" = "Actions";
+"going_title" = "Going";
+"Notgoing_title" = "Not Going";
+"unknown_title" = "Not Responded";
+"Resend_notifi" = "Remind Unresponsive Guests";
+"error_notifying_guests" = "Error Notifying Guests";
+"NOTFI" = "Re-notified guests successfully";
+"no_events_other" = "No Events";
+"events_option_title" = "Manage Party";
+"edit_party" = "Edit Party Details";
+"see_responses" = "See Guests Responses";
+"PASSWORD_LENGTH" = "Your password must be 8 characters long";
+"PASSWORD_NODIGIT" = "Your password must have atleast 1 number";
+"PASSWORD_NOUPPER" = "Your password must have atleast 1 uppercase letter";
+"PASSWORD_SPECIALCHAR" = "Your password must have atleast 1 special character";
+"number" = "Number";
+"present" = "Present";
+"Absent" = "Absent";
+"valid_Email" = "Please enter valid email address";
+"password_validation_message" = "Your password must have atleast 1 uppercase letter and 1 special character and 1 number";
+"successfully_register" = "Sucessfully register. Please login";
+
+
+"No_Food_Allergy" = "No Food Allergy";
+"Gluten" = "Gluten";
+"Egg_white" = "Egg white";
+"Peanut" = "Peanut";
+
+"Cow_milk" = "Cow milk";
+"Fabaceae" = "Fabaceae (lentils, beans ...)";
+"Walnut" = "Walnut";
+"Others" = "Others";
+
+"No_Pet_Allergy" = "No Pet Allergy";
+"Dog" = "Dog";
+"Cat" = "Cat";
+"Rabbit" = "Rabbit";
+"Mouse" = "Mouse";
+"Others" = "Others";
+"Done" = "Done";
+"login_error" = "Error Logging In...";
+"valid_phone" = "Please enter a valid cellular number";
+
+
+"childNameLabel" = "Child Name";
+
+
